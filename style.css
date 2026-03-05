@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --black: #0a0a0a;
+   --orange: #ff6b00;
+   --white: #fff;
+   --gray: #1a1a1a;
+   --light grey:#2a2a2a;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    scroll-behavior: smooth;
+}
+
+/*NAV BAR*/
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1a1a1a;
+}
