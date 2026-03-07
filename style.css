@@ -9,7 +9,7 @@
    --orange: #ff6b00;
    --white: #fff;
    --gray: #1a1a1a;
-   --light grey:#2a2a2a;
+   --light-grey: #2a2a2a;
 }
 
 body{
@@ -163,7 +163,7 @@ section h2::after{
 /*SERVICES*/
 
 #services{
-    background-color: var(--gray);
+    background-color: var(--grey);
 }
 
 .services-grid{
@@ -240,7 +240,7 @@ section h2::after{
 }
 
 .portfolio-card{
-    background-color: var(--gray);
+    background-color: var(--grey);
     padding: 40px 30px;
     border-radius: 8px;
     border: 1px solid #333;
@@ -268,7 +268,7 @@ section h2::after{
 
 /*ABOUT*/
 #about{
-    background-color: var(--gray);
+    background-color: var(--grey);
     text-align: center;
 }
 
@@ -278,6 +278,8 @@ section h2::after{
     font-size: 16px;
     color: #888;
     line-height: 1.8;
+    text-align: center;
+
 }
 
 /*CONTACT*/
@@ -296,7 +298,7 @@ section h2::after{
 /*FOOTER*/
 
 footer{
-    background-color: var(--gray);
+    background-color: var(--grey);
     text-align: center;
     padding: 30px;
     font-size: 14px;
