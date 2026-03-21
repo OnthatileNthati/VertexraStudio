@@ -68,7 +68,7 @@ hero.style.overflow = 'hidden';
 hero.insertBefore(canvas, hero.firstChild);
  
 // Make hero content sit above canvas
-hero.querySelectorAll('h1, p, a').forEach(el => {
+hero.querySelectorAll('h1, p, btn').forEach(el => {
     el.style.position = 'relative';
     el.style.zIndex = '1';
 });
