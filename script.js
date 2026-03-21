@@ -17,7 +17,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 //NAVbar scroll effect
 
 window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('nav');
+    const navbar = document.querySelector('navbar');
     if(window.scrollY > 50){
         navbar.style.borderBottom = '1px solid #FF6B00';
     } else {
