@@ -61,7 +61,7 @@ canvas.style.cssText = `
     z-index: 0;
     pointer-events: none;
 `;
- 
+
 const hero = document.getElementById('hero');
 hero.style.position = 'relative';
 hero.style.overflow = 'hidden';
