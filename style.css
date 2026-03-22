@@ -343,7 +343,7 @@ footer{
         width: 100%;
         background-color: var(--black);
         padding: 20px;
-        gap: 20px;
+        gap: 10px;
         z-index: 99;
     }
 
