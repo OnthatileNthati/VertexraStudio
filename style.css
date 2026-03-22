@@ -332,6 +332,10 @@ footer{
 
     .nav-links{
         display: none;
+    }
+
+   .nav-links.active{
+        display: flex;
         flex-direction: column;
         position: absolute;
         top: 70px;
@@ -340,10 +344,7 @@ footer{
         background-color: var(--black);
         padding: 20px;
         gap: 20px;
-    }
-
-   .nav-links.active{
-        display: flex;
+        z-index: 99;
     }
 
     .hamburger{
