@@ -436,3 +436,7 @@ footer{
 .form-group select option{
     background-color: var(--orange);
 }
+
+html{
+    scroll-behavior: smooth;
+}
