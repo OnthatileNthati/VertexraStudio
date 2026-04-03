@@ -163,3 +163,41 @@ backToTop.addEventListener('click', () => {
     animate();
 })();
 
+//CONTACT FORM
+
+const form = document.querySelector('.contact-form');
+
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const btn = form.querySelector('button[type="submit"]');
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+
+    const data = new FormData(form);
+
+    try {
+        const response = await fetch(form.action, {
+            method: POST,
+            body: data,
+            headers: {'Accept': 'application/json'}
+        });
+        
+        if (response.ok) {
+            btn.textContent = 'Message Sent!';
+            btn.style.backgroundColor = '#28a745';
+            form.reset();
+        }
+
+    } else {
+        btn.textContent = 'Error - Try Again';
+        btn.style.backgroundColor = 'var(--orange)';
+        btn.disabled = false; 
+    }
+
+} catch {
+    btn.textContent = 'Error - Try Again';
+    btn.disabled = false;
+}
+});
+
