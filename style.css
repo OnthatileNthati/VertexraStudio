@@ -107,6 +107,7 @@ background: radial-gradient(ellipse at center, #1a1a1a 0%, #0a0a0a 70%);
   font-size: 18px;
   color: #888;
   max-width: 500px;
+  text-align: center;
 }
 
 
@@ -120,6 +121,9 @@ background: radial-gradient(ellipse at center, #1a1a1a 0%, #0a0a0a 70%);
     animation: fadeInUp 1s ease forwards;
     animation-delay: 0.3s;
     opacity: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
 
@@ -439,4 +443,12 @@ footer{
 
 html{
     scroll-behavior: smooth;
+}
+
+@media (min-width: 769px){
+    .hero-subtitle{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
