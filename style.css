@@ -452,3 +452,41 @@ html{
         margin-right: auto;
     }
 }
+
+
+/*THANK YOU SECTION*/
+
+.thankyou-section{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: radial-gradient(ellipse at center, rgba(255, 107, 0, 0.05), 0%, transparent 70%);
+}
+
+.thankyou-section h1{
+    font-size: 56px;
+    font-weight: 800;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.thankyou-section h1 span{
+    color: var(--orange);
+}
+
+.thankyou-content p {
+    font-size: 16px;
+    color: #888;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+
+.thankyou-content .btn{
+  opacity: 1;
+  animation: none;
+}
