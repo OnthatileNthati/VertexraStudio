@@ -431,6 +431,7 @@ footer{
     font-size: 14px;
     outline: none;
     transition: border-color 0.3s ease;
+    margin-bottom: 15px;
 }
 
 .form-group input:focus, .form-group textarea:focus, .form-group select:focus{
@@ -490,3 +491,4 @@ html{
   opacity: 1;
   animation: none;
 }
+
